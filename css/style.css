@@ -304,6 +304,7 @@ body {
   font-size: 18px;
   font-weight: 500;
   justify-content: space-between;
+  background-color: rgb(38, 74, 157);
 }
 .nest-list .nest-first-answer .nest-second-question .plus {
   display: inline-block;
@@ -346,6 +347,7 @@ body {
   display: flex;
   justify-content: space-between;
   cursor: default;
+  background-color: rgb(84, 122, 210);
 }
 .nest-list .nest-first-answer .nest-second-answer li span {
   font-size: 0.6em;
@@ -359,15 +361,11 @@ body {
 .nest-list .nest-first-answer .wide {
   display: flex;
   justify-content: space-between;
-  padding-right: 10px;
 }
 .nest-list .nest-first-answer .wide h5 {
   display: inline-block;
   font-size: 18px;
   font-weight: 500;
-}
-.nest-list .nest-first-answer .wide p {
-  display: inline-block;
 }
 @media screen and (max-width: 767px) {
   .nest-list .nest-first-question {
@@ -449,13 +447,15 @@ body {
 
 .only-answer {
   display: none;
-  text-align: start;
   width: 80%;
   margin: 0 auto;
   padding: 15px;
   border: 1px solid black;
   border-top: none;
   background-color: rgba(255, 255, 255, 0.7);
+}
+.only-answer p {
+  text-align: start;
 }
 .only-answer .only-menu-close {
   width: fit-content;

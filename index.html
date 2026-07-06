@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link href="https://use.fontawesome.com/releases/v6.5.1/css/all.css" rel="stylesheet">
+    <title>アコーディオンメニューの習作用ページ</title>
+</head>
+<body>
+    <div class="header">
+
+    </div>
+    <div class="top">
+        <h1>アコーディオンメニューの習作用ページです</h1>
+        <div class="toptext">
+            <h2 class="top-btn">アコーディオンメニューとは</h2>
+            <div id="top-setumei">
+                <p>クリックやタップで開閉するメニューのこと。</p>
+                <p>開いたり閉じたりする様子からアコーディオンの名前がついています。</p>
+                <p>Q&Aや、より細かいカテゴリーへの案内などに使われることが多いようです。</p>
+            </div>
+            <p class="chuui">このページに書いてあるものはすべて架空の会社を想定しております。<br>
+                また、ページ最下部の使用画像以外のリンクなどをクリックしても反応いたしません。</p>
+        </div>
+    </div>
+    <div class="con-main">
+        <div class="box-main">
+            <h3>シンプルメニュー<br>（ひとつ開いても他はそのまま）</h3>
+            <ul class="wra-main simple-list">
+                <li class="main-simple-list">
+                    <h4 class="question">Q.営業時間はどうなっていますか？<span class="arrow"></span></h4>
+                    <div class="answer">
+                        <p>当店の営業時間は以下のようになっております<br>
+                            平　日　9:00～19:00<br>
+                            土曜日　9:00～13:00<br>
+                            日曜日・祝日は定休日とさせていただいております</p>
+                    </div>
+                </li>
+                <li class="main-simple-list">
+                    <h4 class="question">Q.サービスの対応地域はどうなっていますか？<span class="arrow"></span></h4>
+                    <div class="answer">
+                        <p>対応地域は東京都を中心とし、神奈川県、千葉県、埼玉県の範囲までお伺いします。<br>
+                            また、範囲外の地域でもご相談いただければ可能な限り対応させていただきます。<br>
+                            ぜひお気軽にご相談くださいませ。</p>
+                    </div>
+                </li>
+                <li class="main-simple-list">
+                    <h4 class="question">Q.料金や費用はどうなっていますか？<span class="arrow"></span></h4>
+                    <div class="answer">
+                        <p>初期相談費用は無料になります。<br>
+                            詳しくは<span>料金表</span>のページをご覧ください。</p>
+                    </div>
+                </li>
+                <li class="main-simple-list">
+                    <h4 class="question">Q.最短でいつ来ていただけますか？<br>最長でいつまで先の日付を予約できますか？<span class="arrow"></span></h4>
+                    <div class="answer">
+                        <p>翌営業日～最大2ヶ月先の間でご予約いただけます。</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="box-main">
+            <h3>開くメニューはひとつだけ<br>（ひとつ開くと他は閉じる）</h3>
+            <ul class="wra-main one-list">
+                <li class="main-one-list">
+                    <h4 class="one-question">【プラン1】名刺代わりのライトプラン<div class="plus"><span class="plus-icon"></span></div></h4>
+                    <div class="one-answer">
+                        <p>価格を抑えて、まずはインターネット上に会社の情報を載せたい方向けのプランです。<br>
+                            会社概要、事業内容、お問い合わせフォームなどを1ページに凝縮して制作します。</p>
+                        <div class="one-answer-bottom">
+                            <p>費用目安<br>xx,000円〜</p>
+                            <p>納期<br>約2週間</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-one-list">
+                    <h4 class="one-question">【プラン2】標準的なスタンダードプラン<div class="plus"><span class="plus-icon"></span></div></h4>
+                    <div class="one-answer">
+                        <p>企業の信頼性をしっかりと高める、一番人気の一般的なホームページ制作プランです。<br>
+                        トップページ、サービス詳細、会社概要、お知らせ一覧、お問い合わせの計5ページを制作します。スマホ対応（レスポンシブ）も標準装備です。</p>
+                   <div class="one-answer-bottom">
+                        <p>費用目安<br>xx,000円〜</p>
+                        <p>納期<br>約1ヶ月</p>
+                   </div>
+                    </div>
+                </li>
+                <li class="main-one-list">
+                    <h4 class="one-question">【プラン3】集客重視のビジネスプラン<div class="plus"><span class="plus-icon"></span></div></h4>
+                    <div class="one-answer">
+                        <p>Webからの問い合わせや、サービスの申し込み（コンバージョン）を徹底的に増やすためのプランです。<br>
+                        詳細な競合調査や導線設計、ブログやお知らせを自分で簡単に更新できるシステム（WordPressなど）の導入が含まれます。<p>
+                        <div class="one-answer-bottom">
+                            <p>費用目安<br>xx,000円〜</p>
+                            <p>納期<br>約1.5ヶ月</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-one-list">
+                    <h4 class="one-question">【オプション】ロゴ・バナー制作<div class="plus"><span class="plus-icon"></span></div></h4>
+                    <div class="one-answer">
+                        <p>ホームページの公開に合わせて、会社やお店のロゴデザイン、SNS用のヘッダーや広告用バナーの制作も承ります。<br>
+                        Webサイトの世界観と統一することで、よりブランドイメージを強めることができます。</p>
+                        <div class="one-answer-bottom">
+                            <p>費用目安<br>xx,000円〜</p>
+                            <p>納期<br>要相談</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-one-list">
+                    <h4 class="one-question">【アフターサポート】月額メンテナンス<div class="plus"><span class="plus-icon"></span></div></h4>
+                    <div class="one-answer">
+                        <p>「パソコンの操作が苦手」「公開後の管理が不安」という方のための、安心サポートプランです。<br>
+                        定期的なデータのバックアップ、システムの最新アップデート、テキストや写真の軽微な修正（月2回まで）などを代行します。</p>
+                        <div class="one-answer-last">
+                            <p>費用目安<br>月額 xx,000円〜</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="box-main">
+            <h3>メニューの中にさらにメニュー</h3>
+            <ul class="wra-main nest-list">
+                <h4 class="nest-first-question">メインメニュー<div class="plus"><span class="plus-icon"></span></div></h4>
+                <ul class="nest-first-answer">
+                    <li>
+                        <h5 class="nest-second-question">定食<div class="plus"><span class="plus-icon"></span></div></h5>
+                        <ul class="nest-second-answer">
+                            <li>
+                                <p>から揚げ定食</p>
+                                <p>1,000円</p>
+                            </li>
+                            <li>
+                                <p>しょうが焼き定食</p>
+                                <p>1,100円</p>
+                            </li>
+                            <li>
+                                <p>アジフライ定食</p>
+                                <p>900円</p>
+                            </li>
+                            <li>
+                                <p>焼きサバ定食</p>
+                                <p>900円</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5 class="nest-second-question">どんぶり<div class="plus"><span class="plus-icon"></span></div></h5>
+                        <ul class="nest-second-answer">
+                            <li>
+                                <p>かつ丼</p>
+                                <p>1,000円</p>
+                            </li>
+                            <li>
+                                <p>親子丼</p>
+                                <p>900円</p>
+                            </li>
+                            <li>
+                                <p>マグロ丼</p>
+                                <p>1,200円</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5 class="nest-second-question">うどん・そば<div class="plus"><span class="plus-icon"></span></div></h5>
+                        <ul class="nest-second-answer">
+                            <li>
+                                <p>かけうどん</p>
+                                <p>1玉　500円</p>
+                            </li>
+                            <li>
+                                <p>ざるうどん</p>
+                                <p>1玉　500円</p>
+                            </li>
+                            <li>
+                                <p>かけそば</p>
+                                <p>1玉　500円</p>
+                            </li>
+                            <li>
+                                <p>ざるそば</p>
+                                <p>1玉　500円</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <h4 class="nest-first-question">サイドメニュー<div class="plus"><span class="plus-icon"></span></div></h4>
+                <ul class="nest-first-answer">
+                    <li>
+                        <h5 class="nest-second-question">揚げ物（単品）<div class="plus"><span class="plus-icon"></span></div></h5>
+                        <ul class="nest-second-answer">
+                            <li>
+                                <p>から揚げ（5個）</p>
+                                <p>400円</p>
+                            </li>
+                            <li>
+                                <p>エビフライ（2尾）</p>
+                                <p>500円</p>
+                            </li>
+                            <li>
+                                <p>メンチカツ</p>
+                                <p>200円</p>
+                            </li>
+                            <li>
+                                <p>アジフライ</p>
+                                <p>200円</p>
+                            </li>
+                            <li>
+                                <p>フライドポテト</p>
+                                <p>400円</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5 class="nest-second-question">サラダ・惣菜<div class="plus"><span class="plus-icon"></span></div></h5>
+                        <ul class="nest-second-answer">
+                            <li>
+                                <p>シーザーサラダ</p>
+                                <p>600円</p>
+                            </li>
+                            <li>
+                                <p>ツナコーンサラダ</p>
+                                <p>500円</p>
+                            </li>
+                            <li>
+                                <p>チョレギサラダ</p>
+                                <p>600円</p>
+                            </li>
+                            <li>
+                                <p>ポテトサラダ</p>
+                                <p>400円</p>
+                            </li>
+                            <li>
+                                <p>きゅうりの漬物</p>
+                                <p>200円</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5 class="nest-second-question">おつまみ<div class="plus"><span class="plus-icon"></span></div></h5>
+                        <ul class="nest-second-answer">
+                            <li>
+                                <p>えだまめ</p>
+                                <p>300円</p>
+                            </li>
+                            <li>
+                                <p>たこわさ</p>
+                                <p>300円</p>
+                            </li>
+                            <li>
+                                <p>チーズ盛り合わせ</p>
+                                <p>300円</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <h4 class="nest-first-question">デザート<div class="plus"><span class="plus-icon"></span></div></h4>
+                <ul class="nest-first-answer">
+                    <li>
+                        <h5 class="nest-second-question">ケーキ<div class="plus"><span class="plus-icon"></span></div></h5>
+                        <ul class="nest-second-answer">
+                            <li>
+                                <p>イチゴショート</p>
+                                <p>350円</p>
+                            </li>
+                            <li>
+                                <p>チョコケーキ</p>
+                                <p>400円</p>
+                            </li>
+                            <li>
+                                <p>モンブラン</p>
+                                <p>400円</p>
+                            </li>
+                            <li>
+                                <p>ティラミス</p>
+                                <p>400円</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5 class="nest-second-question">アイスクリーム<div class="plus"><span class="plus-icon"></span></div></h5>
+                        <ul class="nest-second-answer">
+                            <li>
+                                <p>バニラ/チョコ/ミックス（コーン、カップ）</p>
+                                <p>200円</p>
+                            </li>
+                            <li>
+                                <p>ソーダバーアイス</p>
+                                <p>100円</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5 class="nest-second-question">低カロリースイーツ<div class="plus"><span class="plus-icon"></span></div></h5>
+                        <ul class="nest-second-answer">
+                            <li>
+                                <p>おからチョコケーキ</p>
+                                <p>500円</p>
+                            </li>
+                            <li>
+                                <p>フルーツゼリー</p>
+                                <p>300円</p>
+                            </li>
+                            <li>
+                                <p>豆乳プリン</p>
+                                <p>350円</p>
+                            </li>
+                            <li>
+                                <p>豆腐ティラミス</p>
+                                <p>500円</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <h4 class="nest-first-question">ドリンク<div class="plus"><span class="plus-icon"></span></div></h4>
+                <ul class="nest-first-answer">
+                    <li>
+                        <div class="nest-second-question wide">
+                            <h5>ソフトドリンク</h5>
+                            <p>ALL200円！</p>
+                        </div>
+                        <ul class="nest-second-answer">
+                            <li>
+                                <p>コーラ</p>
+                                <p>200円</p>
+                            </li>
+                            <li>
+                                <p>ジンジャーエール</p>
+                                <p>200円</p>
+                            </li>
+                            <li>
+                                <p>強炭酸水</p>
+                                <p>200円</p>
+                            </li>
+                            <li>
+                                <p>オレンジジュース</p>
+                                <p>200円</p>
+                            </li>
+                            <li>
+                                <p>りんごジュース</p>
+                                <p>200円</p>
+                            </li>
+                            <li>
+                                <p>ウーロン茶</p>
+                                <p>200円</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5 class="nest-second-question">アルコール<div class="plus"><span class="plus-icon"></span></div></h5>
+                        <ul class="nest-second-answer">
+                            <li>
+                                <p>生ビール</p>
+                                <p><span>(中ジョッキ)</span>500円<span class="space"><br></span><span>(大ジョッキ)</span>800円</p>
+                            </li>
+                            <li>
+                                <p>角ハイボール</p>
+                                <p>600円</p>
+                            </li>
+                            <li>
+                                <p>レモンサワー</p>
+                                <p>500円</p>
+                            </li>
+                            <li>
+                                <p>日本酒</p>
+                                <p><span>(200㎖)</span>800円</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5 class="nest-second-question">ノンアルコール<div class="plus"><span class="plus-icon"></span></div></h5>
+                        <ul class="nest-second-answer">
+                            <li>
+                                <p>ノンアルコールビール</p>
+                                <p>500円</p>
+                            </li>
+                            <li>
+                                <p>ノンアルコールレモンサワー</p>
+                                <p>500円</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </ul>
+        </div>
+        <div class="box-main only-menu-text">
+            <h3>ひとつだけのメニュー</h3>
+            <p>利用規約や募集要項など、見たい人は全文表示するが、普段は長くなりすぎるので隠しておきたい文章などに使用。</p>
+            <p>最下部にも閉じるボタンを用意することで、非表示に戻しやすくしています。</p>
+                <div class="wra-main question only-menu">
+                    <div class="only-question">
+                        <h4>雨にも負けず</h4>
+                        <p class="book-open">全文表示<i class="fa-solid fa-book-open"></i></p>
+                    </div>
+                </div>
+                <div class="answer only-answer">
+                        <p>雨にも負けず<br>
+                        風にも負けず<br>
+                        雪にも夏の暑さにも負けぬ<br>
+                        丈夫なからだを持ち<br>
+                        欲は無く<br>
+                        決して瞋からず<br>
+                        何時も静かに笑っている<br>
+                        一日に玄米四合と<br>
+                        味噌と少しの野菜を食べ<br>
+                        あらゆる事を自分を勘定に入れずに<br>
+                        良く見聞きし判り<br>
+                        そして忘れず<br>
+                        野原の松の林の影の<br>
+                        小さな萱葺きの小屋に居て<br>
+                        東に病気の子供あれば 行って看病してやり<br>
+                        西に疲れた母あれば 行ってその稲の束を背負い<br>
+                        南に死にそうな人あれば 行って怖がらなくても良いと言い<br>
+                        北に喧嘩や訴訟があれば つまらないからやめろと言い<br>
+                        日照りのときは涙を流し<br>
+                        寒さの夏はオロオロ歩き<br>
+                        皆にデクノボーと呼ばれ<br>
+                        誉められもせず苦にもされず<br>
+                        そういう者に<br>
+                        私はなりたい</p>
+                        <div class="only-menu-close">閉じる<span><i class="fa-solid fa-angle-up"></i></span></div>
+                </div>
+        </div>
+        <div class="box-main yokomuki">
+            <h3>横向きメニュー</h3>
+            <p>やや特殊なメニューになります</p>
+            <p>縦書きで表示したいもの、高さを変えずに表示したいものなどをまとめておいたりするのに使用できます。</p>
+            <p class="sp">(スマートフォンは横長の表示に向かないため、縦長表示に変更しています)</p>
+            <ul class="wra-main yokomuki-list">
+                <li class="main-yokomuki-list">
+                    <h4 class="yokomuki-question">客室</h4>
+                    <div class="yokomuki-answer">
+                        <div class="yokomuki-answer-inner">
+                            <img src="media\room.jpg">
+                            <p>喧騒を離れた特等席。耳を澄ませば川のせせらぎと木の葉の擦れる音が響きます。
+                                伝統的な数寄屋造りの佇まいにモダンな快適性をプラスした空間で、時計を外し、
+                                大切な人とただ流れる時に身をまかせる贅沢をお愉しみください。</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-yokomuki-list">
+                    <h4 class="yokomuki-question">温泉</h4>
+                    <div class="yokomuki-answer">
+                        <div class="yokomuki-answer-inner">
+                            <img src="media\spa.jpg">
+                            <p>こんこんと湧き出る名湯を、遮るもののない圧倒的な開放感とともに。
+                                木々の香りに包まれる露天風呂では、昼は木漏れ日、夜は満天の星空が広がります。
+                                日々の疲れを優しく洗い流す、至福の湯浴みを心ゆくまで。</p>
+                            </div>
+                    </div>
+                </li>
+                <li class="main-yokomuki-list">
+                    <h4 class="yokomuki-question">食事</h4>
+                    <div class="yokomuki-answer">
+                        <div class="yokomuki-answer-inner">
+                            <img src="media\food.jpg">
+                            <p>料理長が自ら仕入れる地元の新鮮な山の幸と、清流が育んだ川魚。
+                                素材本来の旨味を最大限に引き出したお料理をお楽しみください。
+                                厳選された地酒とともに、五感で味わう至高のひとときを。</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-yokomuki-list">
+                    <h4 class="yokomuki-question">体験</h4>
+                    <div class="yokomuki-answer">
+                        <div class="yokomuki-answer-inner">
+                            <img src="media\activity.jpg">
+                            <p>宿の目の前を流れる清流での「川下り」で自然のダイナミズムを体感した後は、館内の「川見の足湯」へ。
+                                冷たい地サイダーを片手に火照った体を休める、ここでしか出逢えない特別な旅の思い出をご提案します。</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="link">
+            <p>サイトを作成するにあたり、以下のサイトから画像を使用させていただきました。</p>
+            <div class="box-link">
+                <p>背景画像に使用　グレースケールでホーナー楽器を演奏する人</p>
+                <a href="https://www.pexels.com/ja-jp/photo/163823/" target="_blank" rel="noopener noreferrer">pexels.com</a>
+                <p>横向きメニューの背景に使用　大きな楮筋のある生成色の和紙</p>
+                <a href="https://www.beiz.jp/%E7%B4%A0%E6%9D%90/%E5%92%8C%E7%B4%99/00147.html" target="_blank" rel="noopener noreferrer">BEIZ images</a>
+                <p>横向きメニューに使用　温泉・食事・体験の画像</p>
+                <a href="https://www.wakayama-kanko.or.jp/business/photos/index.html" target="_blank" rel="noopener noreferrer">和歌山県公式観光サイト フォトライブラリー</a>
+                <ul>    
+                    <li>-<a href="https://www.wakayama-kanko.or.jp/business/photos/detail_127.html" target="_blank" rel="noopener noreferrer">龍神温泉　元湯</a></li>
+                    <li>-<a href="https://www.wakayama-kanko.or.jp/business/photos/detail_863.html" target="_blank" rel="noopener noreferrer">まぐろ料理</a></li>
+                    <li>-<a href="https://www.wakayama-kanko.or.jp/business/photos/detail_79.html" target="_blank" rel="noopener noreferrer">熊野川舟下り</a></li>
+                </ul>
+                <p>横向きメニューに使用　客室の画像</p>
+                <a href="https://www.pakutaso.com/20150334085post-5337.html" target="_blank" rel="noopener noreferrer">フリー素材・ぱくたそ</a>
+            </div>
+        </div>
+    </div>
+
+<script src="js\style.js"></script>
+
+</body>
+</html>

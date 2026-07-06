@@ -22,7 +22,8 @@ $(function() {
         $answer.slideToggle(500);
         $(this).toggleClass('is-open');
 
-        if (!$(this).hasClass('is-open')) {
+        if ($(this).hasClass('is-open')) {
+        } else {
             $answer.find('.nest-second-answer').slideUp(500);
             $answer.find('.nest-second-question').removeClass('is-open');
         }

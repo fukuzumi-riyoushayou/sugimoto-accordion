@@ -18,11 +18,13 @@ $(function() {
     });
 
     $('.nest-first-question').click(function() {
-        $(this).next('.nest-first-answer').slideToggle(500);
+        const $answer = $(this).next('.nest-first-answer');
+        $answer.slideToggle(500);
         $(this).toggleClass('is-open');
-        if(!$('.nest-first-question').hasClass('is-open')){
-            $(this).next('.nest-first-answer').find('.nest-second-question').next('.nest-second-answer').slideUp(500);
-            $(this).next('.nest-first-answer').find('.nest-second-question').removeClass('is-open');
+
+        if (!$(this).hasClass('is-open')) {
+            $answer.find('.nest-second-answer').slideUp(500);
+            $answer.find('.nest-second-question').removeClass('is-open');
         }
     });
     $('.nest-second-question').click(function() {
